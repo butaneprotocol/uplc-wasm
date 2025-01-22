@@ -3,7 +3,7 @@ name = "uplc-wasm"
 version = "0.2.0"
 edition = "2021"
 description = "A WebAssembly (wasm) wrapper for the uplc crate"
-repository = "https://github.com/mpizenberg/uplc-wasm"
+repository = "https://github.com/butane-cardano/uplc-wasm"
 license = "Apache-2.0"
 keywords = ["cardano", "wasm", "uplc"]
 categories = ["algorithms"]
@@ -12,7 +12,7 @@ categories = ["algorithms"]
 crate-type = ["cdylib"]
 
 [dependencies]
-uplc = "1.1.3"
+uplc = "1.1.10"
 wasm-bindgen = "0.2.93"
 js-sys = "0.3.70"
 wee_alloc = "0.4.5"
